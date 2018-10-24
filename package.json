@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-curology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config for Curology",
   "main": "index.js",
   "scripts": {
@@ -24,13 +24,13 @@
   "peerDependencies": {
     "eslint": ">=5.0.0",
     "eslint-plugin-babel": ">=5.0.0",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-import-resolver-webpack": "^0.8.3",
-    "eslint-plugin-curology": "^0.0.4",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "^7.8.2",
-    "babel-eslint": "8.2.2"
+    "eslint-config-airbnb": ">=16.1.0",
+    "eslint-config-prettier": ">=2.9.0",
+    "eslint-import-resolver-webpack": ">=0.8.3",
+    "eslint-plugin-curology": ">=0.0.4",
+    "eslint-plugin-import": ">=2.9.0",
+    "eslint-plugin-jsx-a11y": ">=6.0.3",
+    "eslint-plugin-react": ">=7.8.2",
+    "babel-eslint": ">=8.2.2"
   }
 }
