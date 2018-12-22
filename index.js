@@ -40,6 +40,7 @@ module.exports = {
     "react/jsx-key": 2,
     "react/no-array-index-key": 1,
     "react/require-default-props": 0,
+    "react/sort-comp": 0,
     "space-before-function-paren": 0
   },
   settings: {
