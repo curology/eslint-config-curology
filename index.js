@@ -37,6 +37,7 @@ module.exports = {
     "object-curly-newline": 1,
     "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-fragments": [2, "element"],
     "react/jsx-key": 2,
     "react/no-array-index-key": 1,
     "react/require-default-props": 0,
