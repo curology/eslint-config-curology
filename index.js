@@ -30,6 +30,7 @@ module.exports = {
     "jsx-a11y/accessible-emoji": 1,
     "max-len": 0,
     "no-confusing-arrow": 0,
+    "no-console": 2,
     "no-else-return": 1,
     "no-plusplus": 1,
     "no-static-element-interactions": 0,
