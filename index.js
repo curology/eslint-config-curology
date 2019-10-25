@@ -41,7 +41,7 @@ module.exports = {
     "react/jsx-fragments": [2, "element"],
     "react/jsx-key": 2,
     "react/no-array-index-key": 1,
-    "react/require-default-props": 0,
+    "react/require-default-props": 2,
     "react/sort-comp": 0,
     "space-before-function-paren": 0
   },
