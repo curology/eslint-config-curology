@@ -2,7 +2,7 @@
 
 ## 1.1.0
 
-- Add `react/require-default-props` error rule [(43)](https://github.com/PocketDerm/eslint-config-curology/pull/4)
+- Add `react/require-default-props` error rule [(#4)](https://github.com/PocketDerm/eslint-config-curology/pull/4)
 
 ## 1.0.5
 

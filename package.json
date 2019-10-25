@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-curology",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Shareable ESLint config for Curology",
   "main": "index.js",
   "scripts": {
