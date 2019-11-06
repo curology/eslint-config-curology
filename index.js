@@ -21,7 +21,7 @@ module.exports = {
     "import/no-unresolved": 0,
     "import/order": [2, {"groups": [["builtin", "external"], "internal", ["parent", "sibling"]], "newlines-between": "always"}],
     "import/prefer-default-export": 1,
-    "import/no-extraneous-dependencies": 1,
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "jsx-a11y/anchor-is-valid": 1,
     "jsx-a11y/click-events-have-key-events": 1,
