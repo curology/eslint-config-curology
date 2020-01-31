@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.0
+
+- Update `import/prefer-default-export` from warning to off [(#7)](https://github.com/PocketDerm/eslint-config-curology/pull/7)
+
 ## 1.2.0
 
 - Update `import/no-extraneous-dependencies` from warning to error, with devDependencies exception [(#6)](https://github.com/PocketDerm/eslint-config-curology/pull/6)
