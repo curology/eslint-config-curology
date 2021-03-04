@@ -1,5 +1,11 @@
 # CHANGELOG
 
+# 2.2.0
+
+- Ignore `react/jsx-one-expression-per-line`, `react/jsx-wrap-multilines`, `object-curly-newline`, and `indent`.
+- Warn on `import/no-cycle` and `import/no-named-as-default-member`.
+  - These will eventually be enforced as errors at a future date.
+
 # 2.1.0
 
 - Re-release of 2.0.0, mostly.
