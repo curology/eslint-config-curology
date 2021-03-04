@@ -28,7 +28,6 @@ module.exports = {
     ],
     "import/prefer-default-export": 0,
     "import/no-extraneous-dependencies": [2, { devDependencies: true }],
-    indent: ["error", 2, { SwitchCase: 1 }],
     "jsx-a11y/anchor-is-valid": 1,
     "jsx-a11y/click-events-have-key-events": 1,
     "jsx-a11y/img-redundant-alt": 1,
@@ -41,7 +40,6 @@ module.exports = {
     "no-plusplus": 1,
     "no-static-element-interactions": 0,
     "no-underscore-dangle": 1,
-    "object-curly-newline": 1,
     "object-property-newline": [
       "error",
       { allowAllPropertiesOnSameLine: true },
