@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PocketDerm/eslint-config-curology.git"
+    "url": "git+https://github.com/curology/eslint-config-curology.git"
   },
   "keywords": [
     "eslint",
@@ -18,9 +18,9 @@
   "author": "Curology <engineering@curology.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PocketDerm/eslint-config-curology/issues"
+    "url": "https://github.com/curology/eslint-config-curology/issues"
   },
-  "homepage": "https://github.com/PocketDerm/eslint-config-curology",
+  "homepage": "https://github.com/curology/eslint-config-curology",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
