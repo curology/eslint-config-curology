@@ -18,6 +18,8 @@ module.exports = {
     "function-paren-newline": 0,
     "global-require": 0,
     "import/extensions": ["error", "never"],
+    "import/no-cycle": 1,
+    "import/no-named-as-default-member": 1,
     "import/no-unresolved": 0,
     "import/order": [
       2,
