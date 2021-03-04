@@ -1,13 +1,13 @@
 module.exports = {
   extends: [
     "airbnb",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["curology"],
   rules: {
-    "arrow-body-style": [2, "as-needed"],
+    "@typescript-eslint/prefer-ts-expect-error": 2,
     "arrow-parens": [2, "as-needed"],
     "class-methods-use-this": 0,
     "comma-dangle": [2, "always-multiline"],

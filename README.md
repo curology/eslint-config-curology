@@ -18,8 +18,8 @@ by adding this to your `.eslintrc` file:
 
 ```
 {
-  "extends": ["curology", ...otherConfig, "prettier"]
+  "extends": [...otherConfig, "curology"]
 }
 ```
 
-`"prettier"` must be the last entry in "extends" for [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation) compatibility
+`"curology"` must be the last entry in "extends" for [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier/blob/1f206661b8e197e6753b772509028c34f954b42a/README.md#recommended-configuration) compatibility
