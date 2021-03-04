@@ -1,7 +1,11 @@
 module.exports = {
-  extends: ["airbnb", "prettier"],
+  extends: [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   parser: "@typescript-eslint/parser",
-  plugins: ["react", "babel", "curology"],
+  plugins: ["curology"],
   rules: {
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": [2, "as-needed"],
