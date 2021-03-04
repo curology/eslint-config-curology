@@ -7,6 +7,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["curology"],
   rules: {
+    "@typescript-eslint/prefer-ts-expect-error": 2,
     "arrow-parens": [2, "as-needed"],
     "class-methods-use-this": 0,
     "comma-dangle": [2, "always-multiline"],
