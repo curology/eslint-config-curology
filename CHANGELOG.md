@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# 2.1.0
+
+- Re-release of 2.0.0, mostly.
+- Re-order config extensions, document adding `"curology"` as last `"extends"` entry
+- Add `@typescript-eslint/prefer-ts-expect-error` as error.
+- Remove `arrow-body-style` (handled by `prettier` plugin).
+
 # 2.0.0
 
 - **BREAKING CHANGE**: Use `@typescript-eslint/parser`
