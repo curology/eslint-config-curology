@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
     "airbnb",
-    "prettier",
-    "prettier/react"
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
-  parser: "babel-eslint",
-  plugins: ["react", "babel", "curology"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["curology"],
   rules: {
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": [2, "as-needed"],
@@ -19,10 +19,16 @@ module.exports = {
     "global-require": 0,
     "import/extensions": ["error", "never"],
     "import/no-unresolved": 0,
-    "import/order": [2, {"groups": [["builtin", "external"], "internal", ["parent", "sibling"]], "newlines-between": "always"}],
+    "import/order": [
+      2,
+      {
+        groups: [["builtin", "external"], "internal", ["parent", "sibling"]],
+        "newlines-between": "always",
+      },
+    ],
     "import/prefer-default-export": 0,
-    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "import/no-extraneous-dependencies": [2, { devDependencies: true }],
+    indent: ["error", 2, { SwitchCase: 1 }],
     "jsx-a11y/anchor-is-valid": 1,
     "jsx-a11y/click-events-have-key-events": 1,
     "jsx-a11y/img-redundant-alt": 1,
@@ -36,16 +42,19 @@ module.exports = {
     "no-static-element-interactions": 0,
     "no-underscore-dangle": 1,
     "object-curly-newline": 1,
-    "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "object-property-newline": [
+      "error",
+      { allowAllPropertiesOnSameLine: true },
+    ],
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/jsx-fragments": [2, "element"],
     "react/jsx-key": 2,
     "react/no-array-index-key": 1,
     "react/require-default-props": 2,
     "react/sort-comp": 0,
-    "space-before-function-paren": 0
+    "space-before-function-paren": 0,
   },
   settings: {
-    "import/extensions": [".js", ".jsx"]
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
   },
 };
