@@ -1,5 +1,10 @@
 # CHANGELOG
 
+# 2.0.0
+
+- **BREAKING CHANGE**: Use `@typescript-eslint/parser`
+- Update ruleset and update `peerDependencies`
+
 ## 1.3.0
 
 - Update `import/prefer-default-export` from warning to off [(#7)](https://github.com/PocketDerm/eslint-config-curology/pull/7)
