@@ -1,5 +1,9 @@
 # CHANGELOG
 
+# 3.0.1
+
+- Re-release of 3.0.0
+
 # 3.0.0
 
 - **This package is no longer maintained**. All existing configuration options can now be found in `eslint-plugin-curology`. 
