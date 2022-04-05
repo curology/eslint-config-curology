@@ -8,6 +8,15 @@
 
 - **This package is no longer maintained**. All existing configuration options can now be found in `eslint-plugin-curology`. 
 
+At the time of this writing the configuration can be switched over like so:
+
+```diff
+  extends: [
+-    'curology',
++    'plugin:curology/recommended',
+  ]
+```
+
 # 2.2.0
 
 - Ignore `react/jsx-one-expression-per-line`, `react/jsx-wrap-multilines`, `object-curly-newline`, and `indent`.
